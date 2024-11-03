@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 1ddcd80e50e0f0d408b55581f4e50d4e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _GrassMap: {instanceID: 0}
+  - _WindDistortionMap: {instanceID: 0}
+  - _MainTex: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
