@@ -8,7 +8,7 @@ public class CamRotation : MonoBehaviour
     public float minY, maxY, sensitivity;
 
     void Start(){;
-        Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
         rotation.x = 0;
         rotation.y = 0;
     }

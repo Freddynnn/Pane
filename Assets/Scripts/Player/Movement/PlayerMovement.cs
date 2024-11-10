@@ -44,17 +44,17 @@ public class PlayerMovement : MonoBehaviour
 
         if(!isMoving){
             if (Input.GetKeyDown(KeyCode.L)){
-            // ani.SetBool("isMoving", false);
+                // ani.SetBool("isMoving", false);
 
-            if(isSitting){
-                StartCoroutine(WaitToStand());
-                ani.SetBool("isSitting", false);    
-            } else if(!isSitting){
-                canMove = false;
-                ani.SetBool("isSitting", true);    
+                if(isSitting){
+                    StartCoroutine(WaitToStand());
+                    ani.SetBool("isSitting", false);    
+                } else if(!isSitting){
+                    canMove = false;
+                    ani.SetBool("isSitting", true);    
+                }
+                // ani.SetBool("isSitting", !isSitting);
             }
-            // ani.SetBool("isSitting", !isSitting);
-        }
         }
     }
 
